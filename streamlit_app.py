@@ -8,7 +8,8 @@ c1.markdown("## Testo columna 1")
 #c1.image('images/avatar.jpeg', width=300)
 # Contenido de la segunda
 c2.markdown("## texto segunda columna")
-
+c2.checkbox("Un Checkbox")
+c2.select_slider("Slider de Texto", options=["uno", "dos", "tres", "cuatro"])
 
 
 
