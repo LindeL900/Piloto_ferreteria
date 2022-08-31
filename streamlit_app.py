@@ -18,9 +18,9 @@ c1.selectbox("Graficos a generar:", options=["Grafico x dia", "Grafico por clien
 c2.multiselect("Tipo documento", options=["FCV", "BLV", "NCV"])
 datos = np.randon.rand(20,2)
 df = pd.dataframe(datos, columns = ['dia','valor']
-plt.style.use('ggplot')
-font = {'family': 'meiryo'}
-matplotlib.rc('font', **font)
+#plt.style.use('ggplot')
+#font = {'family': 'meiryo'}
+#matplotlib.rc('font', **font)
 fig = plt.figure(figsize=(12,9))
 ax = plt.axes()
 plt.scatter(df.dia, df.valor, color='red', label='valor')
