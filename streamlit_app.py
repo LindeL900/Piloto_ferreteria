@@ -13,4 +13,6 @@ c1, c2 = st.columns([3, 7])
 #c3.radio("Radio", options=["AM", "FM", "Online"])
 c1.selectbox("Graficos a generar:", options=["Grafico x dia", "Grafico por cliente"])
 c2.multiselect("Tipo documento", options=["FCV", "BLV", "NCV"])
-
+datos = np.randon.rand(20,2)
+df = pd.dataframe(datos, columns = ['dia','valor'
+pt.scatter(df.dia, df.valor)
