@@ -3,6 +3,7 @@
 
 import streamlit as st
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 st.write('Pagina web mostrar graficos') 
 c1, c2 = st.columns([3, 7])
