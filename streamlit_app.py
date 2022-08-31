@@ -15,4 +15,4 @@ c1.selectbox("Graficos a generar:", options=["Grafico x dia", "Grafico por clien
 c2.multiselect("Tipo documento", options=["FCV", "BLV", "NCV"])
 datos = np.randon.rand(20,2)
 df = pd.dataframe(datos, columns = ['dia','valor'
-pt.scatter(df.dia, df.valor)
+plt.scatter(df.dia, df.valor)
