@@ -2,6 +2,8 @@
 #Pandas Piloto analisis ventas de un mes - leer resultado carga ya depurado
 
 import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
 st.write('Pagina web mostrar graficos') 
 c1, c2 = st.columns([3, 7])
 #c1.markdown("## Parametros del grafico")
