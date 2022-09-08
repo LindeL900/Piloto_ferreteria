@@ -4,7 +4,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import polotly.express px
+import plotly.express px
 #import matplotlib.pyplot as plt
 st.header ("Ejercicio cursos streamlit")
 name = "Linde"
