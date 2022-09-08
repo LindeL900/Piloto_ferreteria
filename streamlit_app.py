@@ -21,4 +21,4 @@ c1, c2 = st.columns([3, 7])
 c1.selectbox("Graficos a generar:", options=["Grafico x dia", "Grafico por cliente"])
 c2.multiselect("Tipo documento", options=["FCV", "BLV", "NCV"])
 datos = np.randon.rand(20,2)
-df = pd.dataframe(datos, columns = ['dia','valor']
+df = pd.dataframe(datos, columns = ['dia','valor'])
