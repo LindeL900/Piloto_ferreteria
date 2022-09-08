@@ -4,8 +4,12 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-st.write('Pagina web mostrar graficos') 
+import 
+#import matplotlib.pyplot as plt
+st.header ("Ejercicio cursos streamlit")
+name = "Linde"
+st.text("Ejercicio de: {}".format (name))
+#st.write('Pagina web mostrar graficos') 
 c1, c2 = st.columns([3, 7])
 #c1.markdown("## Parametros del grafico")
 #c1.image('images/avatar.jpeg', width=300)
