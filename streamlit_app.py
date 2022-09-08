@@ -25,6 +25,6 @@ df = pd.dataframe(datos, columns = ['dia','valor']
 #plt.style.use('ggplot')
 #font = {'family': 'meiryo'}
 #matplotlib.rc('font', **font)
-fig = plt.figure(figsize=(12,9))
-ax = plt.axes()
-plt.scatter(df.dia, df.valor, color='red', label='valor')
+#fig = plt.figure(figsize=(12,9))
+#ax = plt.axes()
+#plt.scatter(df.dia, df.valor, color='red', label='valor')
